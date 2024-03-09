@@ -1,3 +1,8 @@
+*{
+    background: black;
+    color:white
+}
+
 .scroll{
     overflow-x: scroll;
 }
