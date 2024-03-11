@@ -3,7 +3,7 @@
 }
 
 .border-gradient{
-    border-image: linear-gradient(45deg,#ffffff, #797979, #0000) 1;
+    border-image: linear-gradient(45deg,#000000, #797979, #ffffff) 1;
     border-width: 2px;
     border-style: solid;
     border-left: 0;

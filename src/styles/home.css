@@ -1,8 +1,58 @@
 *{
-    background: black;
     color:white
+}
+
+body{
+    background: black;
 }
 
 .scroll{
     overflow-x: scroll;
 }
+
+.grid-for-search{
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    height: 300px;
+    padding: 0 50px;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left:0;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px 0 0 3px;
+    user-select: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
